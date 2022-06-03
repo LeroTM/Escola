@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="js-fullheight bd">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+                <h2 class="heading-section"></h2>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6 col-lg-8 bor">
+                <div class="login-wrap p-0 mt-5">
+                    <h3 class="mb-4 text-center">Cadastrar</h3>
+                    <form action="#" class="signin-form">
+                        <div class="row">
+                            <div class="form-group col">
+                                <input type="text" class="form-control in" placeholder="Nome" required>
+                            </div>
+                            <div class="form-group col">
+                                <input type="text" class="form-control in" placeholder="Sobre Nome" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <input id="password-field" type="password" class="form-control in" placeholder="Senha"
+                                    required>
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                            </div>
+                            <div class="form-group col">
+                                <input type="email" class="form-control in" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="form-group col">
+                                <input type="text" class="form-control in" maxlength="11" placeholder="CPF" required>
+                            </div>
+                            <div class="col d-flex m-auto">
+                                <label class=" checkbox-primary links ml-5">Masculino
+                                    <input type="radio" name="genero">    
+                                </label>
+                                <label class=" checkbox-primary links ml-5">Feminino
+                                    <input type="radio" name="genero">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col">
+                                <input type="tel" class="form-control in" maxlength="11" placeholder="(xx) xxxxx-xxxx" required>
+                            </div>
+                            <div class="form-group col">
+                                <input type="date" class="form-control in" placeholder="Nome" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="form-control in btn submit px-3 bt-edit">Cadastrar</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
